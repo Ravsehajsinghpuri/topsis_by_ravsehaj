@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/Ravsehajsinghpuri/topsis_by_ravsehaj",
     packages=setuptools.find_packages(),
     install_requires=[
-        'sys','numpy','pandas','math','scipy',
+       'numpy','pandas','math','scipy',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
