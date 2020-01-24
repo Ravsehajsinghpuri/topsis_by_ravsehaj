@@ -11,7 +11,7 @@ setuptools.setup(
     description="A package for Topsis technique",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Ravsehajsinghpuri/Topsis_Package",
+    url="https://github.com/Ravsehajsinghpuri/topsis_by_ravsehaj",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
