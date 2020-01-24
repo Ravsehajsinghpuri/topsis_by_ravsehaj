@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsis_by_ravsehaj", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Ravsehaj Singh Puri",
     author_email="ravsehajsinghpuri@gmail.com",
     description="A package for Topsis technique",
@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/Ravsehajsinghpuri/topsis_by_ravsehaj",
     packages=setuptools.find_packages(),
     install_requires=[
-       'numpy','pandas','math','scipy',
+       'numpy','pandas','scipy',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
