@@ -53,7 +53,7 @@ def rank_data(data_filename,list_of_weights,list_of_impacts):
 	performance_score=np.divide(s_minus,sum_s_plus_s_minus)
 	rank=rankdata(performance_score)
 	final_rank=len(rank)+1-rank
-		final_rank=list(final_rank)
+	final_rank=list(final_rank)
 	final_rank=[int(i) for i in final_rank]
 	Y=Y.iloc[:,0]
 	Y=list(Y)
