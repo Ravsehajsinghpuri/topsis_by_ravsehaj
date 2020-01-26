@@ -1,4 +1,4 @@
 
-from .topsis_by_ravsehaj import (
+from .topsis import (
   rank_data,
 )
